@@ -1,0 +1,36 @@
+Pseudocode for this challenge
+
+Definitions
+- array of at least 2
+- always increasing values
+- always either all lower or all uppercase
+- always only one letter missing
+
+Problem
+1. starting with the first value in the array, make that value 'compare1'
+2. make the next value in the array 'compare2'
+3. if compare2 = compare1 + 1, then go to the next value of the array and repeat from step 2
+4. else return compare1 + 1 as the missing value
+
+Errors
+- No missing value
+- More than one missing value
+- Not array
+- No values in array
+- Repeated same values
+- not increasing in values
+
+Pseudocode
+
+if length of the array is less than 2 then return 'array to short'
+for i = 0 to the (length of the array - 1)
+  let compare1 equal 
+  
+
+
+
+
+
+
+
+
